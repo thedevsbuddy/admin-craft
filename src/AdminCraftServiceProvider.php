@@ -2,9 +2,9 @@
 
 namespace Devsbuddy\AdminCraft;
 
+use Devsbuddy\AdminCraft\Commands\AdminCraftCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Devsbuddy\AdminCraft\Commands\AdminCraftCommand;
 
 class AdminCraftServiceProvider extends PackageServiceProvider
 {

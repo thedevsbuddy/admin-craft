@@ -2,9 +2,9 @@
 
 namespace Devsbuddy\AdminCraft\Tests;
 
+use Devsbuddy\AdminCraft\AdminCraftServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Devsbuddy\AdminCraft\AdminCraftServiceProvider;
 
 class TestCase extends Orchestra
 {
