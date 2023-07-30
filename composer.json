@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "thedevsbuddy/admin-craft",
+    "description": "A simple yet powerful admin panel and resource generator",
     "keywords": [
-        ":vendor_name",
+        "thedevsbuddy",
         "laravel",
-        ":package_slug"
+        "admin-craft"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/thedevsbuddy/admin-craft",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Devsbuddy",
+            "email": "devsbuddy404@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Devsbuddy\\AdminCraft\\": "src/",
+            "Devsbuddy\\AdminCraft\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Devsbuddy\\AdminCraft\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Devsbuddy\\AdminCraft\\AdminCraftServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "AdminCraft": "Devsbuddy\\AdminCraft\\Facades\\AdminCraft"
             }
         }
     },

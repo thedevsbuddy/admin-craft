@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Devsbuddy\AdminCraft\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class AdminCraftCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'admin-craft';
 
     public $description = 'My command';
 
